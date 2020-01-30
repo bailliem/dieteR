@@ -20,6 +20,7 @@ Suggests:
     rmarkdown
 Language: en-US
 Imports: 
-    dplyr
+    dplyr,
+    stringr
 VignetteBuilder: knitr
 RoxygenNote: 7.0.2
