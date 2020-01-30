@@ -1,1 +1,31 @@
-destination: docs
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    articles:
+      text: Articles
+      menu:
+      - text: ForestPlot
+        href: articles/ForestPlot.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/bailliem/dieteR
+
+reference:
+- title: All functions
+  desc: ~
+  contents: '`report_p`'
+
