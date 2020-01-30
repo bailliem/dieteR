@@ -15,5 +15,11 @@ URL: https://github.com/bailliem/dieteR
 BugReports: https://github.com/bailliem/dieteR/issues
 Suggests: 
     testthat (>= 2.1.0),
-    spelling
+    spelling,
+    knitr,
+    rmarkdown
 Language: en-US
+Imports: 
+    dplyr
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2
